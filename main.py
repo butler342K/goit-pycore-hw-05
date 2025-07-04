@@ -16,8 +16,10 @@ def caching_fibonacci():
     return fibonacci
 
 fib = caching_fibonacci()
+print('Task 1')
 print(fib(10))  
 print(fib(15))  
+print(' ')
 
 #Task 2
 import re
@@ -32,6 +34,8 @@ def sum_profit(text: str, generator_numbers: callable) -> float:
         total += number
     return total
 
+print('Task 2')
 text = "Загальний дохід працівника складається з декількох частин: 1000.01 як основний дохід, доповнений додатковими надходженнями 27.45 і 324.00 доларів."
 total_income = sum_profit(text, generator_numbers)
 print(f"Загальний дохід: {total_income}")
+print(' ')
